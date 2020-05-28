@@ -1,6 +1,5 @@
 .animal {
     float: left;
-    background-color: grey;
 }
 
 body{
@@ -30,10 +29,31 @@ figcaption{
     background-color: green;
 }
 
+.cat figcaption{
+    background-color: purple;
+    color: white;
+}
 .dog p{
     color: green;
 }
 
 .cat p{
     color: purple;
+}
+
+.bunny figcaption{
+    background-color: orange;
+}
+
+.bunny p{
+    color: orange;
+}
+
+.hamster figcaption{
+    background-color: blue;
+    color: white;
+}
+
+.hamster p{
+    color: blue;
 }
