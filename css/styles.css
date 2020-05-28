@@ -57,3 +57,15 @@ figcaption{
 .hamster p{
     color: blue;
 }
+
+@media screen and (max-width: 1000px) and (min-width: 700px) {
+    body {
+        background-color: rgb(211, 243, 181);
+    }
+}
+
+@media screen and (max-width: 480px){
+    body {
+        background-color: rgb(142, 196, 240);
+    }
+}
