@@ -1,8 +1,39 @@
 .animal {
+    float: left;
+    background-color: grey;
+}
 
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    background-color: beige;
+    color: brown;
+    margin: 0px;
+    padding: 50px;
 }
 
 img{
     width: 200px;
-    height: 200px;
+    height: 300px;
+}
+
+figcaption{
+    padding-bottom: 10px;
+}
+
+.dog figcaption{
+    background-color: green;
+}
+
+.dog p{
+    color: green;
+}
+
+.cat p{
+    color: purple;
 }
